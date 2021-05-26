@@ -12,11 +12,11 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscatalog.services.exceptions.DatabaseException;
-import com.devsuperior.dscatalog.services.exceptions.ResourceNotFoundException;
 import com.workhome.clientcatalog.dto.ClientDTO;
 import com.workhome.clientcatalog.entities.Client;
 import com.workhome.clientcatalog.repositories.ClientRepository;
+import com.workhome.clientcatalog.services.exceptions.DatabaseException;
+import com.workhome.clientcatalog.services.exceptions.ResourceNotFoundException;
 
 
 @Service
